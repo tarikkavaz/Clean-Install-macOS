@@ -8,7 +8,10 @@ I use Dropbox for backup/restore and also my symlinked files (like gitconfig and
 
 ## Create Bootable USB Disk
 
-- [Download macOS Catalina 10.15](https://apps.apple.com/us/app/macos-catalina/id1466841314?mt=12)
+- Download prefered macOS
+    - [macOS Big Sur](https://itunes.apple.com/app/os-x-el-capitan/id1147835434)
+    - [macOS Catalina](https://apps.apple.com/us/app/macos-catalina/id1466841314?mt=12)
+    - [macOS Mojave](https://apps.apple.com/us/app/macos-mojave/id1398502828?mt=12)
 - Format USB (min 8GB):
     - Open **Disk Utility**
     - Click **Erase**
@@ -17,8 +20,14 @@ I use Dropbox for backup/restore and also my symlinked files (like gitconfig and
 - To Create a OS X bootable USB disk enter this command to your terminal:
 
 ```bash
-# Catalina
+# Big Sur:
+sudo /Applications/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled
+
+# Catalina:
 sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled
+
+# Mojave:
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled
 ```
 
 ## Backup
