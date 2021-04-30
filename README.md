@@ -84,8 +84,6 @@ Install Brew Packages
 ```bash
 brew install bash bash-completion gettext libffi openssl@1.1 xz cask coreutils curl fabric icu4c jpeg ffmpeg gdrive git git-extras grep guetzli highlight hr imagemagick libyaml mas mono mysql nvm pkg-config postgresql rsync ssh-copy-id stormssh stormssh-completion tree unar wget youtube-dl
 # Restart Terminal
-
-# brew install autoconf automake bash bash-completion coreutils curl openssl@1.1 readline xz fabric gettext git git-extras grep guetzli highlight hr htop icu4c jpeg libffi libksba libtool libyaml mas mysql node@12 ntfs-3g nvm openssh peco postgresql postgresql@9.4 rclone rsync ruby ssh-copy-id stormssh stormssh-completion tmate tree wget yarn youtube-dl zlib
 ```
 
 ## Restore .ssh files
