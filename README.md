@@ -28,6 +28,9 @@ sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstall
 
 # Mojave:
 sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled
+
+# Ventura:
+sudo /Applications/Install\ macOS\ Ventura.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled
 ```
 
 ## Backup
